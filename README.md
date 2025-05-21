@@ -6,9 +6,9 @@ I'm a tech-savvy B.Tech student specializing in Artificial Intelligence and Data
 
 My technical portfolio encompasses full stack development, machine learning, DevOps, PowerBI, and design tools like Figma. I’m proficient in **React.js**, **Python**, and cloud databases such as **Supabase**. I love building creative solutions and have developed projects like:
 
-- **FinEcho** – AI-powered investment platform  
-- **TastyLens-AR** – AR-based food donation app  
-- **Heal-Fit** – AI-driven health assistant
+- **FinEcho:** [fin-echo.vercel.app](https://fin-echo.vercel.app/)
+- **TastyLens-AR:** [tastylensar.vercel.app](https://tastylensar.vercel.app/)
+- **Heal-Fit:** [heal-fit.vercel.app](https://heal-fit.vercel.app/)
 
 ## 🏆 Achievements
 

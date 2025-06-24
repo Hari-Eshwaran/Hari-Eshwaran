@@ -26,7 +26,7 @@ My technical portfolio encompasses full stack development, machine learning, Dev
 
 ## 📚 Portfolio & Links
 
-- **Portfolio:** [portfolio-harishwarans-projects.vercel.app](https://portfolio-harishwarans-projects.vercel.app)
+- **Portfolio:** [harishwaran.tech](https:harishwaran.tech)
 - **LinkedIn:** [linkedin.com/in/harishwaran1](https://www.linkedin.com/in/harishwaran1)
 - **Email:** [harishwaran@hexpertify.com](mailto:harishwaran@hexpertify.com)
 

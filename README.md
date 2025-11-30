@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Harishwaran P
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sugith10/images/main/gif/mario-working.gif" alt="Working Mario" />
+  <img src="cmdcqvt1a9pc1.gif" alt="Working Mario" />
 </div>
 
 ## 🚀 About Me

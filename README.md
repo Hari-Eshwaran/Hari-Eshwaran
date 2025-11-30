@@ -8,6 +8,10 @@
 
 I'm a tech-savvy B.Tech student specializing in Artificial Intelligence and Data Science at DMI College of Engineering, Chennai (2022–2026). I combine hands-on experience from diverse internships—ranging from data analysis at Vulture Lines Pvt Ltd to full stack development at Novitech Pvt Ltd, where I built responsive applications and robust RESTful APIs. My early career included enhancing production efficiency with lean manufacturing at Hyundai Transys Lear.
 
+<div align="center">
+  <img src="m39hjhl6w8pc1.gif" alt="Working Mario" />
+</div>
+
 My technical portfolio encompasses full stack development, machine learning, DevOps, PowerBI, and design tools like Figma. I’m proficient in **React.js**, **Python**, and cloud databases such as **Supabase**. I love building creative solutions and have developed projects like:
 
 - **FinEcho:** [fin-echo.vercel.app](https://fin-echo.vercel.app/)

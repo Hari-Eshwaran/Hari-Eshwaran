@@ -1,5 +1,9 @@
 # 👋 Hi, I'm Harishwaran P
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/sugith10/images/main/gif/mario-working.gif" alt="Working Mario" />
+</div>
+
 ## 🚀 About Me
 
 I'm a tech-savvy B.Tech student specializing in Artificial Intelligence and Data Science at DMI College of Engineering, Chennai (2022–2026). I combine hands-on experience from diverse internships—ranging from data analysis at Vulture Lines Pvt Ltd to full stack development at Novitech Pvt Ltd, where I built responsive applications and robust RESTful APIs. My early career included enhancing production efficiency with lean manufacturing at Hyundai Transys Lear.

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+  <title id="title">Animated footer wave</title>
+  <desc id="desc">Neon wave footer with flowing gradients and moving particles.</desc>
+  <defs>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#33D6FF" stop-opacity="0.15" />
+      <stop offset="50%" stop-color="#7CFFB2" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#86A8FF" stop-opacity="0.18" />
+      <animate attributeName="x1" values="0%;100%;0%" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="100%;0%;100%" dur="8s" repeatCount="indefinite" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#7CFFB2" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="180" fill="#030712" />
+  <path d="M0 122 C120 88, 220 88, 340 122 S560 156, 680 122 S900 88, 1020 122 S1140 156, 1200 120 L1200 180 L0 180 Z" fill="url(#wave)" fill-opacity="0.2" />
+  <path d="M0 108 C140 64, 250 66, 380 108 S610 150, 740 108 S980 66, 1110 108 S1180 140, 1200 112" fill="none" stroke="url(#wave)" stroke-width="4" filter="url(#glow)" stroke-linecap="round">
+    <animate attributeName="stroke-dasharray" values="0 1200;180 1020;0 1200" dur="6s" repeatCount="indefinite" />
+  </path>
+  <g fill="#DFFBFF" opacity="0.8">
+    <circle cx="140" cy="112" r="3">
+      <animate attributeName="cy" values="112;98;112" dur="3.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="420" cy="92" r="2.5">
+      <animate attributeName="cy" values="92;76;92" dur="4.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="760" cy="110" r="3">
+      <animate attributeName="cy" values="110;96;110" dur="4.1s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1030" cy="96" r="2.5">
+      <animate attributeName="cy" values="96;80;96" dur="4.7s" repeatCount="indefinite" />
+    </circle>
+  </g>
+</svg>

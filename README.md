@@ -1,39 +1,4 @@
-<div align="center">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 170" role="img" aria-labelledby="typingTitle typingDesc" width="100%">
-    <title id="typingTitle">Animated typing banner</title>
-    <desc id="typingDesc">A neon profile banner with a blinking cursor and cycling role lines.</desc>
-    <defs>
-      <linearGradient id="typingBg" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#06101D" />
-        <stop offset="100%" stop-color="#0B1633" />
-      </linearGradient>
-      <linearGradient id="typingText" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#33D6FF" />
-        <stop offset="100%" stop-color="#86A8FF" />
-      </linearGradient>
-    </defs>
-    <rect width="1200" height="170" rx="22" fill="url(#typingBg)" />
-    <rect x="28" y="24" width="1144" height="122" rx="18" fill="#09111F" fill-opacity="0.72" stroke="#1F3558" />
-    <text x="600" y="74" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="800" fill="url(#typingText)">Harishwaran P</text>
-    <g font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" text-anchor="middle">
-      <text x="600" y="114" fill="#D8F3FF">
-        <tspan opacity="1">AI + Full-Stack Developer</tspan>
-        <animate attributeName="opacity" values="1;1;0;0;0" dur="9s" repeatCount="indefinite" />
-      </text>
-      <text x="600" y="114" fill="#D8F3FF" opacity="0">
-        <tspan opacity="0">Building immersive digital experiences</tspan>
-        <animate attributeName="opacity" values="0;0;1;1;0" dur="9s" begin="3s" repeatCount="indefinite" />
-      </text>
-      <text x="600" y="114" fill="#D8F3FF" opacity="0">
-        <tspan opacity="0">AI, UI, and products that feel polished</tspan>
-        <animate attributeName="opacity" values="0;0;0;0;1;1" dur="9s" begin="6s" repeatCount="indefinite" />
-      </text>
-    </g>
-    <rect x="884" y="96" width="14" height="26" rx="5" fill="#33D6FF">
-      <animate attributeName="opacity" values="1;1;0;0;1" dur="1s" repeatCount="indefinite" />
-    </rect>
-  </svg>
-</div>
+
 
 <div align="center">
   <img src="./assets/hero-ai-banner.svg" alt="AI themed glassmorphism hero banner" width="100%" />

@@ -19,11 +19,28 @@ import { parseArgs } from 'node:util';
 const TIME_ZONE = 'Asia/Kolkata';
 const TOP_LANGUAGES = 5;
 
-// Categorical palette checked for colour-blind separation against the card
-// surface (#0B1424). Order matters: neighbouring bar segments use neighbouring
-// slots, and every adjacent pair in this order passes.
-const PALETTE = ['#3987E5', '#D95926', '#199E70', '#C98500', '#D55181'];
-const OTHER_COLOR = '#4A5873';
+// Black and orange, matching THEME in build-art.mjs.
+const THEME = {
+  cardBg: ['#0A0908', '#14100D'],
+  border: '#2B211A',
+  divider: '#241B15',
+  tile: '#16110D',
+  text: '#F7F1EA',
+  value: '#FFF6EE',
+  legend: '#EADDD0',
+  eyebrow: '#D9C4B0',
+  muted: '#B09A87',
+  faint: '#8E7B6C',
+  orange: '#FF7A1A',
+  accent: '#FF9A4D',
+};
+
+// Categorical palette for the language bar, checked for colour-blind separation
+// against the card surface (#0E0C0B). Orange leads to match the theme. Order
+// matters: neighbouring bar segments use neighbouring slots, and every adjacent
+// pair in this order passes.
+const PALETTE = ['#D95926', '#3987E5', '#199E70', '#C98500', '#D55181'];
+const OTHER_COLOR = '#5A4F47';
 // The languages that dominate this profile keep their colour even when the
 // ranking shifts; any other language takes the next free slot.
 const PINNED = { TypeScript: 0, JavaScript: 1, Python: 2 };
@@ -208,7 +225,7 @@ function renderCard(s, now = new Date()) {
       const x = 744 + (i % 2) * 208;
       const y = 100 + Math.floor(i / 2) * 108;
       return `<g class="tile" style="animation-delay:${0.15 + i * 0.12}s">
-        <rect x="${x}" y="${y}" width="192" height="92" rx="14" fill="#0F1C36" stroke="#1F3558"/>
+        <rect x="${x}" y="${y}" width="192" height="92" rx="14" fill="${THEME.tile}" stroke="${THEME.border}"/>
         <text class="value" x="${x + 20}" y="${y + 50}">${esc(value)}</text>
         <text class="label" x="${x + 20}" y="${y + 76}">${esc(label)}</text>
       </g>`;
@@ -229,26 +246,26 @@ function renderCard(s, now = new Date()) {
   <title id="title">Live from GitHub</title>
   <desc id="desc">${esc(summary)}</desc>
   <style>
-    text { font-family: ${SANS}; fill: #EAF6FF; }
+    text { font-family: ${SANS}; fill: ${THEME.text}; }
     .mono { font-family: ${MONO}; font-size: 15px; letter-spacing: 0.4px; }
-    .eyebrow { font-family: ${MONO}; font-size: 15px; letter-spacing: 2.5px; fill: #9FC3E0; }
-    .muted { fill: #6F8FB3; }
-    .accent { fill: #7CFFB2; }
+    .eyebrow { font-family: ${MONO}; font-size: 15px; letter-spacing: 2.5px; fill: ${THEME.eyebrow}; }
+    .muted { fill: ${THEME.faint}; }
+    .accent { fill: ${THEME.accent}; }
     .title { font-size: 22px; font-weight: 700; }
-    .sub { font-size: 16px; fill: #8FB9DA; }
+    .sub { font-size: 16px; fill: ${THEME.muted}; }
     .seg { font-size: 14px; font-weight: 600; fill: #FFFFFF; }
-    .lg-name { font-size: 16px; fill: #D8E8F5; }
-    .lg-pct { font-family: ${MONO}; font-size: 15px; fill: #8FB9DA; }
-    .value { font-size: 34px; font-weight: 700; fill: #F5FBFF; }
-    .label { font-size: 15px; fill: #8FB9DA; }
+    .lg-name { font-size: 16px; fill: ${THEME.legend}; }
+    .lg-pct { font-family: ${MONO}; font-size: 15px; fill: ${THEME.muted}; }
+    .value { font-size: 34px; font-weight: 700; fill: ${THEME.value}; }
+    .label { font-size: 15px; fill: ${THEME.muted}; }
     .tile { animation: rise 0.7s cubic-bezier(0.22, 1, 0.36, 1) backwards; }
     @keyframes rise { from { opacity: 0; transform: translateY(10px); } }
     @media (prefers-reduced-motion: reduce) { .tile { animation: none; } }
   </style>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0A1222"/>
-      <stop offset="1" stop-color="#0E1A33"/>
+      <stop offset="0" stop-color="${THEME.cardBg[0]}"/>
+      <stop offset="1" stop-color="${THEME.cardBg[1]}"/>
     </linearGradient>
     <clipPath id="reveal">
       <rect x="${X}" y="${BAR.y - 2}" width="${BAR.w}" height="${BAR.h + 4}">
@@ -257,16 +274,16 @@ function renderCard(s, now = new Date()) {
     </clipPath>
   </defs>
 
-  <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="20" fill="url(#bg)" stroke="#1F3558"/>
+  <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="20" fill="url(#bg)" stroke="${THEME.border}"/>
 
-  <circle cx="${X + 6}" cy="50" r="5" fill="#7CFFB2"/>
-  <circle cx="${X + 6}" cy="50" r="5" fill="none" stroke="#7CFFB2" stroke-width="2">
+  <circle cx="${X + 6}" cy="50" r="5" fill="${THEME.orange}"/>
+  <circle cx="${X + 6}" cy="50" r="5" fill="none" stroke="${THEME.orange}" stroke-width="2">
     <animate attributeName="r" values="5;14" dur="2s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.7;0" dur="2s" repeatCount="indefinite"/>
   </circle>
   <text class="eyebrow" x="${X + 22}" y="55">LIVE FROM GITHUB</text>
   <text class="mono muted" x="${W - X}" y="55" text-anchor="end">auto-updated daily · ${day(now)}</text>
-  <line x1="${X}" y1="78" x2="${W - X}" y2="78" stroke="#1A2A47"/>
+  <line x1="${X}" y1="78" x2="${W - X}" y2="78" stroke="${THEME.divider}"/>
 
   <text class="title" x="${X}" y="128">Language mix</text>
   <text class="sub" x="${X}" y="154">by code size across ${count(s.originalRepos)} original public repos</text>

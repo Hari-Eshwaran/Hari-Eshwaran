@@ -10,6 +10,27 @@
 import { writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 
+// Black and orange. Every colour in the art comes from here, so a retheme is a one-place change.
+// Keep generate-card.mjs in step with this block.
+const THEME = {
+  heroBg: ['#050505', '#120C08', '#070605'],
+  cardBg: ['#0A0908', '#14100D'],
+  border: '#2B211A',
+  divider: '#241B15',
+  dots: '#2A1E15',
+  node: '#0B0908',
+  text: '#F7F1EA',
+  textSoft: '#F3E3D3',
+  muted: '#B09A87',
+  faint: '#8E7B6C',
+  ember: '#FF4D00',
+  orange: '#FF7A1A',
+  amber: '#FFB347',
+  gold: '#FFC857',
+  silver: '#D4CCC4',
+  spark: '#FFE2C2',
+};
+
 const PROFILE = {
   first: 'Harishwaran',
   last: 'Petchimuthu',
@@ -22,19 +43,19 @@ const PROFILE = {
     'Building intelligent products',
   ],
   chips: [
-    { text: '8 hackathon & startup awards', color: '#FFD166' },
-    { text: '2 research papers', color: '#86A8FF' },
-    { text: '23+ products shipped', color: '#7CFFB2' },
+    { text: '8 hackathon & startup awards', color: THEME.gold },
+    { text: '2 research papers', color: THEME.orange },
+    { text: '23+ products shipped', color: THEME.amber },
   ],
   site: 'harishwaran.dpdns.org',
 };
 
 const MILESTONES = {
   stats: [
-    { value: '8', label: 'hackathon & startup awards', color: '#FFD166' },
-    { value: '₹48K+', label: 'won in prize money', color: '#7CFFB2' },
-    { value: '2', label: 'research papers published', color: '#86A8FF' },
-    { value: '20', label: 'certifications', color: '#33D6FF' },
+    { value: '8', label: 'hackathon & startup awards', color: THEME.gold },
+    { value: '₹48K+', label: 'won in prize money', color: THEME.orange },
+    { value: '2', label: 'research papers published', color: THEME.amber },
+    { value: '20', label: 'certifications', color: THEME.ember },
   ],
   // Oldest first; the timeline draws left to right.
   awards: [
@@ -47,7 +68,7 @@ const MILESTONES = {
   ],
 };
 
-const RESULT_COLORS = { Winner: '#FFD166', '2nd place': '#C9D6E3', 'Special winner': '#7CFFB2' };
+const RESULT_COLORS = { Winner: THEME.gold, '2nd place': THEME.silver, 'Special winner': THEME.orange };
 
 const SANS = `'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif`;
 const MONO = `ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, Menlo, monospace`;
@@ -118,9 +139,9 @@ function hero() {
 
   // A small neural network on the right: three layers, fully connected, with signals travelling through it.
   const layers = [
-    { x: 905, ys: [150, 220, 290], color: '#33D6FF' },
-    { x: 1010, ys: [115, 185, 255, 325], color: '#86A8FF' },
-    { x: 1115, ys: [150, 220, 290], color: '#7CFFB2' },
+    { x: 905, ys: [150, 220, 290], color: THEME.ember },
+    { x: 1010, ys: [115, 185, 255, 325], color: THEME.orange },
+    { x: 1115, ys: [150, 220, 290], color: THEME.amber },
   ];
   const edges = [];
   for (let l = 0; l < layers.length - 1; l++) {
@@ -139,7 +160,7 @@ function hero() {
     .map((route, i) => {
       const d = route.map((n, l) => `${l ? 'L' : 'M'}${layers[l].x} ${layers[l].ys[n]}`).join(' ');
       const begin = `${r2(i * 0.52)}s`;
-      return `<circle r="3.5" fill="#B8FFE0" opacity="0" filter="url(#glow)">
+      return `<circle r="3.5" fill="${THEME.spark}" opacity="0" filter="url(#glow)">
       <animateMotion path="${d}" dur="2.6s" begin="${begin}" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.85;1" dur="2.6s" begin="${begin}" repeatCount="indefinite"/>
     </circle>`;
@@ -154,7 +175,7 @@ function hero() {
       <animate attributeName="r" values="10;22" dur="3s" begin="${begin}" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.55;0" dur="3s" begin="${begin}" repeatCount="indefinite"/>
     </circle>
-    <circle cx="${x}" cy="${y}" r="10" fill="#0A1430" stroke="${color}" stroke-width="2"/>
+    <circle cx="${x}" cy="${y}" r="10" fill="${THEME.node}" stroke="${color}" stroke-width="2"/>
     <circle cx="${x}" cy="${y}" r="3.5" fill="${color}"/>`;
       }),
     )
@@ -167,38 +188,38 @@ function hero() {
   <desc id="desc">${esc(alt)}</desc>
   <style>
     text { font-family: ${SANS}; }
-    .eyebrow { font-family: ${MONO}; font-size: 17px; letter-spacing: 3px; fill: #33D6FF; }
-    .name { font-size: 56px; font-weight: 700; fill: #F5FBFF; }
+    .eyebrow { font-family: ${MONO}; font-size: 17px; letter-spacing: 3px; fill: ${THEME.orange}; }
+    .name { font-size: 56px; font-weight: 700; fill: ${THEME.text}; }
     .prompt, .typed { font-family: ${MONO}; font-size: ${typing.size}px; }
-    .prompt { fill: #7CFFB2; font-weight: 700; }
-    .typed { fill: #D8F3FF; }
-    .chip { font-size: 16px; font-weight: 600; fill: #E3F4FF; }
-    .site { font-family: ${MONO}; font-size: 16px; fill: #6F8FB3; }
+    .prompt { fill: ${THEME.orange}; font-weight: 700; }
+    .typed { fill: ${THEME.textSoft}; }
+    .chip { font-size: 16px; font-weight: 600; fill: ${THEME.textSoft}; }
+    .site { font-family: ${MONO}; font-size: 16px; fill: ${THEME.faint}; }
     .intro { animation: intro 0.9s cubic-bezier(0.22, 1, 0.36, 1) backwards; }
     @keyframes intro { from { opacity: 0; transform: translateY(14px); } }
     @media (prefers-reduced-motion: reduce) { .intro { animation: none; } }
   </style>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#050816"/>
-      <stop offset="0.55" stop-color="#0B1633"/>
-      <stop offset="1" stop-color="#02101F"/>
+      <stop offset="0" stop-color="${THEME.heroBg[0]}"/>
+      <stop offset="0.55" stop-color="${THEME.heroBg[1]}"/>
+      <stop offset="1" stop-color="${THEME.heroBg[2]}"/>
     </linearGradient>
     <radialGradient id="glowA">
-      <stop offset="0" stop-color="#33D6FF" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#33D6FF" stop-opacity="0"/>
+      <stop offset="0" stop-color="${THEME.orange}" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="${THEME.orange}" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="glowB">
-      <stop offset="0" stop-color="#7CFFB2" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#7CFFB2" stop-opacity="0"/>
+      <stop offset="0" stop-color="${THEME.ember}" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="${THEME.ember}" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="surname" gradientUnits="userSpaceOnUse" x1="430" y1="0" x2="800" y2="0">
-      <stop offset="0" stop-color="#33D6FF"/>
-      <stop offset="0.5" stop-color="#7CFFB2"/>
-      <stop offset="1" stop-color="#86A8FF"/>
+      <stop offset="0" stop-color="${THEME.ember}"/>
+      <stop offset="0.5" stop-color="${THEME.orange}"/>
+      <stop offset="1" stop-color="${THEME.amber}"/>
     </linearGradient>
     <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="12" cy="12" r="1" fill="#1B2D4F"/>
+      <circle cx="12" cy="12" r="1" fill="${THEME.dots}"/>
     </pattern>
     <filter id="glow" x="-200%" y="-200%" width="500%" height="500%">
       <feGaussianBlur stdDeviation="2.5" result="blur"/>
@@ -217,7 +238,7 @@ function hero() {
       <animate attributeName="cy" values="300;250;300" dur="11s" repeatCount="indefinite"/>
     </circle>
   </g>
-  <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="24" fill="none" stroke="#1F3558"/>
+  <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="24" fill="none" stroke="${THEME.border}"/>
 
   <g class="intro">
     <text class="eyebrow" x="${X}" y="122">${esc(PROFILE.eyebrow)}</text>
@@ -226,7 +247,7 @@ function hero() {
 
   <text class="prompt" x="${X}" y="${typing.y}">›</text>
   ${roles}
-  <rect x="${textX + staticWidth(0)}" y="${typing.y - 22}" width="3" height="28" rx="1.5" fill="#33D6FF">
+  <rect x="${textX + staticWidth(0)}" y="${typing.y - 22}" width="3" height="28" rx="1.5" fill="${THEME.orange}">
     ${tw.cursor}
     <animate attributeName="opacity" values="1;0" dur="1.05s" calcMode="discrete" repeatCount="indefinite"/>
   </rect>
@@ -236,7 +257,7 @@ function hero() {
     <text class="site" x="${X}" y="364">↗ ${esc(PROFILE.site)}</text>
   </g>
 
-  <g stroke="#4FB8E6" stroke-opacity="0.22" stroke-width="1.2">
+  <g stroke="${THEME.orange}" stroke-opacity="0.2" stroke-width="1.2">
     ${edges.join('\n    ')}
   </g>
   ${pulses}
@@ -253,7 +274,7 @@ function milestones() {
   const stats = MILESTONES.stats
     .map(({ value, label, color }, i) => {
       const cx = colW * i + colW / 2;
-      const divider = i ? `<line x1="${colW * i}" y1="58" x2="${colW * i}" y2="140" stroke="#1A2A47"/>` : '';
+      const divider = i ? `<line x1="${colW * i}" y1="58" x2="${colW * i}" y2="140" stroke="${THEME.divider}"/>` : '';
       return `${divider}
     <g class="rise" style="animation-delay:${r2(i * 0.1)}s">
       <text class="stat" x="${cx}" y="102" text-anchor="middle" fill="${color}">${esc(value)}</text>
@@ -268,7 +289,7 @@ function milestones() {
   const awards = MILESTONES.awards
     .map(({ date, event, result, project }, i) => {
       const x = LINE.x1 + i * step;
-      const color = RESULT_COLORS[result] ?? '#C9D6E3';
+      const color = RESULT_COLORS[result] ?? THEME.silver;
       const at = (i / (MILESTONES.awards.length - 1)) * LINE.draw; // when the line reaches this node
       const fade = r2(at + 0.35);
       const reveal = `<animate attributeName="opacity" values="0;0;1" keyTimes="0;${(at / fade).toFixed(3)};1" dur="${fade}s" fill="freeze"/>`;
@@ -283,7 +304,7 @@ function milestones() {
       ${reveal}
       ${ring}
       <text class="date" x="${x}" y="${LINE.y - 24}" text-anchor="middle">${esc(date.toUpperCase())}</text>
-      <circle cx="${x}" cy="${LINE.y}" r="9" fill="#0A1430" stroke="${color}" stroke-width="2.5"/>
+      <circle cx="${x}" cy="${LINE.y}" r="9" fill="${THEME.node}" stroke="${color}" stroke-width="2.5"/>
       <circle cx="${x}" cy="${LINE.y}" r="4" fill="${color}"/>
       <text class="event" x="${x}" y="${LINE.y + 40}" text-anchor="middle">${esc(event)}</text>
       <text class="result" x="${x}" y="${LINE.y + 65}" text-anchor="middle" fill="${color}">${esc(result)}</text>
@@ -304,31 +325,31 @@ function milestones() {
   <style>
     text { font-family: ${SANS}; }
     .stat { font-size: 48px; font-weight: 700; }
-    .stat-label { font-size: 18px; fill: #8FB9DA; }
-    .date { font-family: ${MONO}; font-size: 15px; letter-spacing: 1px; fill: #5FA8D3; }
-    .event { font-size: 20px; font-weight: 700; fill: #EAF6FF; }
+    .stat-label { font-size: 18px; fill: ${THEME.muted}; }
+    .date { font-family: ${MONO}; font-size: 15px; letter-spacing: 1px; fill: ${THEME.orange}; }
+    .event { font-size: 20px; font-weight: 700; fill: ${THEME.text}; }
     .result { font-size: 16px; font-weight: 600; }
-    .project { font-size: 16px; fill: #8FB9DA; }
+    .project { font-size: 16px; fill: ${THEME.muted}; }
     .rise { animation: rise 0.8s cubic-bezier(0.22, 1, 0.36, 1) backwards; }
     @keyframes rise { from { opacity: 0; transform: translateY(12px); } }
     @media (prefers-reduced-motion: reduce) { .rise { animation: none; } }
   </style>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0A1222"/>
-      <stop offset="1" stop-color="#0E1A33"/>
+      <stop offset="0" stop-color="${THEME.cardBg[0]}"/>
+      <stop offset="1" stop-color="${THEME.cardBg[1]}"/>
     </linearGradient>
     <linearGradient id="progress" gradientUnits="userSpaceOnUse" x1="${LINE.x1}" y1="0" x2="${LINE.x2}" y2="0">
-      <stop offset="0" stop-color="#33D6FF"/>
-      <stop offset="0.6" stop-color="#7CFFB2"/>
-      <stop offset="1" stop-color="#FFD166"/>
+      <stop offset="0" stop-color="${THEME.ember}"/>
+      <stop offset="0.6" stop-color="${THEME.orange}"/>
+      <stop offset="1" stop-color="${THEME.gold}"/>
     </linearGradient>
   </defs>
 
-  <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="22" fill="url(#bg)" stroke="#1F3558"/>
+  <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="22" fill="url(#bg)" stroke="${THEME.border}"/>
   ${stats}
 
-  <line x1="${LINE.x1}" y1="${LINE.y}" x2="${LINE.x2}" y2="${LINE.y}" stroke="#1E3356" stroke-width="3" stroke-linecap="round"/>
+  <line x1="${LINE.x1}" y1="${LINE.y}" x2="${LINE.x2}" y2="${LINE.y}" stroke="${THEME.border}" stroke-width="3" stroke-linecap="round"/>
   <line x1="${LINE.x1}" y1="${LINE.y}" x2="${LINE.x2}" y2="${LINE.y}" stroke="url(#progress)" stroke-width="3" stroke-linecap="round" stroke-dasharray="${length} ${length}">
     <animate attributeName="stroke-dashoffset" from="${length}" to="0" dur="${LINE.draw}s" fill="freeze"/>
   </line>
@@ -342,9 +363,9 @@ function footer() {
   const H = 150;
   // Seamless looping waves: each path repeats every `period` px and slides by exactly one period.
   const waves = [
-    { y: 118, amp: 10, period: 300, color: '#33D6FF', opacity: 0.35, dur: 9, reverse: false },
-    { y: 126, amp: 8, period: 400, color: '#7CFFB2', opacity: 0.28, dur: 13, reverse: true },
-    { y: 134, amp: 6, period: 240, color: '#86A8FF', opacity: 0.25, dur: 11, reverse: false },
+    { y: 118, amp: 10, period: 300, color: THEME.orange, opacity: 0.4, dur: 9, reverse: false },
+    { y: 126, amp: 8, period: 400, color: THEME.amber, opacity: 0.28, dur: 13, reverse: true },
+    { y: 134, amp: 6, period: 240, color: THEME.ember, opacity: 0.3, dur: 11, reverse: false },
   ]
     .map(({ y, amp, period, color, opacity, dur, reverse }) => {
       const half = period / 2;
@@ -361,17 +382,17 @@ function footer() {
   <title id="title">Engineer by training, entrepreneur by choice.</title>
   <style>
     text { font-family: ${SANS}; }
-    .quote { font-size: 26px; font-weight: 600; fill: #EAF6FF; }
-    .sign { font-family: ${MONO}; font-size: 16px; fill: #6F8FB3; }
+    .quote { font-size: 26px; font-weight: 600; fill: ${THEME.text}; }
+    .sign { font-family: ${MONO}; font-size: 16px; fill: ${THEME.faint}; }
   </style>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0A1222"/>
-      <stop offset="1" stop-color="#0E1A33"/>
+      <stop offset="0" stop-color="${THEME.cardBg[0]}"/>
+      <stop offset="1" stop-color="${THEME.cardBg[1]}"/>
     </linearGradient>
     <clipPath id="card"><rect width="${W}" height="${H}" rx="22"/></clipPath>
   </defs>
-  <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="22" fill="url(#bg)" stroke="#1F3558"/>
+  <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="22" fill="url(#bg)" stroke="${THEME.border}"/>
   <g clip-path="url(#card)">
     ${waves}
   </g>

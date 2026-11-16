@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="title">
+  <title id="title">Engineer by training, entrepreneur by choice.</title>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .quote { font-size: 26px; font-weight: 600; fill: #EAF6FF; }
+    .sign { font-family: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, Menlo, monospace; font-size: 16px; fill: #6F8FB3; }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A1222"/>
+      <stop offset="1" stop-color="#0E1A33"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1200" height="150" rx="22"/></clipPath>
+  </defs>
+  <rect x="0.5" y="0.5" width="1199" height="149" rx="22" fill="url(#bg)" stroke="#1F3558"/>
+  <g clip-path="url(#card)">
+    <path d="M-300 118 q75 -10 150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0" fill="none" stroke="#33D6FF" stroke-opacity="0.35" stroke-width="2">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-300 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-400 126 q100 -8 200 0 t200 0 t200 0 t200 0 t200 0 t200 0 t200 0 t200 0 t200 0 t200 0" fill="none" stroke="#7CFFB2" stroke-opacity="0.28" stroke-width="2">
+      <animateTransform attributeName="transform" type="translate" from="-400 0" to="0 0" dur="13s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-240 134 q60 -6 120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0" fill="none" stroke="#86A8FF" stroke-opacity="0.25" stroke-width="2">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-240 0" dur="11s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <text class="quote" x="600" y="62" text-anchor="middle">Engineer by training, entrepreneur by choice.</text>
+  <text class="sign" x="600" y="94" text-anchor="middle">thanks for stopping by  ·  harishwaran.dpdns.org</text>
+</svg>

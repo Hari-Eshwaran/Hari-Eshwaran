@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Milestones</title>
+  <desc id="desc">8 hackathon &amp; startup awards, ₹48K+ won in prize money, 2 research papers published, 20 certifications. Awards: Mar 2025, Codeathon 3.0, Winner (TastyLens); Jun 2025, Drestein&#39;25, Winner (ZARA); Aug 2025, DCE Hackathon, Winner (AgriSmart); Jan 2026, Ecoverse&#39;25, Special winner (SmartBin); Jan 2026, Project Expo, 2nd place (ReportX); Apr 2026, DevHub 1.0, Winner (HypexAI).</desc>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .stat { font-size: 48px; font-weight: 700; }
+    .stat-label { font-size: 18px; fill: #8FB9DA; }
+    .date { font-family: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, Menlo, monospace; font-size: 15px; letter-spacing: 1px; fill: #5FA8D3; }
+    .event { font-size: 20px; font-weight: 700; fill: #EAF6FF; }
+    .result { font-size: 16px; font-weight: 600; }
+    .project { font-size: 16px; fill: #8FB9DA; }
+    .rise { animation: rise 0.8s cubic-bezier(0.22, 1, 0.36, 1) backwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(12px); } }
+    @media (prefers-reduced-motion: reduce) { .rise { animation: none; } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A1222"/>
+      <stop offset="1" stop-color="#0E1A33"/>
+    </linearGradient>
+    <linearGradient id="progress" gradientUnits="userSpaceOnUse" x1="110" y1="0" x2="1090" y2="0">
+      <stop offset="0" stop-color="#33D6FF"/>
+      <stop offset="0.6" stop-color="#7CFFB2"/>
+      <stop offset="1" stop-color="#FFD166"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="1199" height="329" rx="22" fill="url(#bg)" stroke="#1F3558"/>
+  
+    <g class="rise" style="animation-delay:0s">
+      <text class="stat" x="150" y="102" text-anchor="middle" fill="#FFD166">8</text>
+      <text class="stat-label" x="150" y="132" text-anchor="middle">hackathon &amp; startup awards</text>
+    </g>
+    <line x1="300" y1="58" x2="300" y2="140" stroke="#1A2A47"/>
+    <g class="rise" style="animation-delay:0.1s">
+      <text class="stat" x="450" y="102" text-anchor="middle" fill="#7CFFB2">₹48K+</text>
+      <text class="stat-label" x="450" y="132" text-anchor="middle">won in prize money</text>
+    </g>
+    <line x1="600" y1="58" x2="600" y2="140" stroke="#1A2A47"/>
+    <g class="rise" style="animation-delay:0.2s">
+      <text class="stat" x="750" y="102" text-anchor="middle" fill="#86A8FF">2</text>
+      <text class="stat-label" x="750" y="132" text-anchor="middle">research papers published</text>
+    </g>
+    <line x1="900" y1="58" x2="900" y2="140" stroke="#1A2A47"/>
+    <g class="rise" style="animation-delay:0.3s">
+      <text class="stat" x="1050" y="102" text-anchor="middle" fill="#33D6FF">20</text>
+      <text class="stat-label" x="1050" y="132" text-anchor="middle">certifications</text>
+    </g>
+
+  <line x1="110" y1="212" x2="1090" y2="212" stroke="#1E3356" stroke-width="3" stroke-linecap="round"/>
+  <line x1="110" y1="212" x2="1090" y2="212" stroke="url(#progress)" stroke-width="3" stroke-linecap="round" stroke-dasharray="980 980">
+    <animate attributeName="stroke-dashoffset" from="980" to="0" dur="2.4s" fill="freeze"/>
+  </line>
+  <g>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.000;1" dur="0.35s" fill="freeze"/>
+      <circle cx="110" cy="212" r="9" fill="none" stroke="#FFD166" opacity="0">
+        <animate attributeName="r" values="9;22" dur="2.4s" begin="0.35s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.6;0" dur="2.4s" begin="0.35s" repeatCount="indefinite"/>
+      </circle>
+      <text class="date" x="110" y="188" text-anchor="middle">MAR 2025</text>
+      <circle cx="110" cy="212" r="9" fill="#0A1430" stroke="#FFD166" stroke-width="2.5"/>
+      <circle cx="110" cy="212" r="4" fill="#FFD166"/>
+      <text class="event" x="110" y="252" text-anchor="middle">Codeathon 3.0</text>
+      <text class="result" x="110" y="277" text-anchor="middle" fill="#FFD166">Winner</text>
+      <text class="project" x="110" y="299" text-anchor="middle">TastyLens</text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.578;1" dur="0.83s" fill="freeze"/>
+      <circle cx="306" cy="212" r="9" fill="none" stroke="#FFD166" opacity="0">
+        <animate attributeName="r" values="9;22" dur="2.4s" begin="0.83s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.6;0" dur="2.4s" begin="0.83s" repeatCount="indefinite"/>
+      </circle>
+      <text class="date" x="306" y="188" text-anchor="middle">JUN 2025</text>
+      <circle cx="306" cy="212" r="9" fill="#0A1430" stroke="#FFD166" stroke-width="2.5"/>
+      <circle cx="306" cy="212" r="4" fill="#FFD166"/>
+      <text class="event" x="306" y="252" text-anchor="middle">Drestein&#39;25</text>
+      <text class="result" x="306" y="277" text-anchor="middle" fill="#FFD166">Winner</text>
+      <text class="project" x="306" y="299" text-anchor="middle">ZARA</text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.733;1" dur="1.31s" fill="freeze"/>
+      <circle cx="502" cy="212" r="9" fill="none" stroke="#FFD166" opacity="0">
+        <animate attributeName="r" values="9;22" dur="2.4s" begin="1.31s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.6;0" dur="2.4s" begin="1.31s" repeatCount="indefinite"/>
+      </circle>
+      <text class="date" x="502" y="188" text-anchor="middle">AUG 2025</text>
+      <circle cx="502" cy="212" r="9" fill="#0A1430" stroke="#FFD166" stroke-width="2.5"/>
+      <circle cx="502" cy="212" r="4" fill="#FFD166"/>
+      <text class="event" x="502" y="252" text-anchor="middle">DCE Hackathon</text>
+      <text class="result" x="502" y="277" text-anchor="middle" fill="#FFD166">Winner</text>
+      <text class="project" x="502" y="299" text-anchor="middle">AgriSmart</text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.804;1" dur="1.79s" fill="freeze"/>
+      
+      <text class="date" x="698" y="188" text-anchor="middle">JAN 2026</text>
+      <circle cx="698" cy="212" r="9" fill="#0A1430" stroke="#7CFFB2" stroke-width="2.5"/>
+      <circle cx="698" cy="212" r="4" fill="#7CFFB2"/>
+      <text class="event" x="698" y="252" text-anchor="middle">Ecoverse&#39;25</text>
+      <text class="result" x="698" y="277" text-anchor="middle" fill="#7CFFB2">Special winner</text>
+      <text class="project" x="698" y="299" text-anchor="middle">SmartBin</text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.846;1" dur="2.27s" fill="freeze"/>
+      
+      <text class="date" x="894" y="188" text-anchor="middle">JAN 2026</text>
+      <circle cx="894" cy="212" r="9" fill="#0A1430" stroke="#C9D6E3" stroke-width="2.5"/>
+      <circle cx="894" cy="212" r="4" fill="#C9D6E3"/>
+      <text class="event" x="894" y="252" text-anchor="middle">Project Expo</text>
+      <text class="result" x="894" y="277" text-anchor="middle" fill="#C9D6E3">2nd place</text>
+      <text class="project" x="894" y="299" text-anchor="middle">ReportX</text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.873;1" dur="2.75s" fill="freeze"/>
+      <circle cx="1090" cy="212" r="9" fill="none" stroke="#FFD166" opacity="0">
+        <animate attributeName="r" values="9;22" dur="2.4s" begin="2.75s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.6;0" dur="2.4s" begin="2.75s" repeatCount="indefinite"/>
+      </circle>
+      <text class="date" x="1090" y="188" text-anchor="middle">APR 2026</text>
+      <circle cx="1090" cy="212" r="9" fill="#0A1430" stroke="#FFD166" stroke-width="2.5"/>
+      <circle cx="1090" cy="212" r="4" fill="#FFD166"/>
+      <text class="event" x="1090" y="252" text-anchor="middle">DevHub 1.0</text>
+      <text class="result" x="1090" y="277" text-anchor="middle" fill="#FFD166">Winner</text>
+      <text class="project" x="1090" y="299" text-anchor="middle">HypexAI</text>
+    </g>
+</svg>

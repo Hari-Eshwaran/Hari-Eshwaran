@@ -1,139 +1,185 @@
+<a href="https://harishwaran.dpdns.org">
+  <img src="./assets/hero.svg" width="100%" alt="Harishwaran Petchimuthu — CEO of Thenam Software Solutions, full-stack developer and AI innovator. 8 hackathon and startup awards, 2 research papers, 23+ products shipped." />
+</a>
 
+<p align="center">
+  <a href="https://harishwaran.dpdns.org"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-0B1633?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzNENkZGIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiLz48cGF0aCBkPSJNMiAxMmgyME0xMiAyYTE1IDE1IDAgMCAxIDAgMjBNMTIgMmExNSAxNSAwIDAgMCAwIDIwIi8%2BPC9zdmc%2B" /></a>
+  <a href="https://www.linkedin.com/in/harishwaran1"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0B1633?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzg2QThGRiI%2BPHBhdGggZD0iTTQuOTggMy41YTIuNSAyLjUgMCAxIDEgMCA1IDIuNSAyLjUgMCAwIDEgMC01ek0zIDloNHYxMkgzek05IDloMy44djEuN2guMDVjLjUzLTEgMS44My0yLjA1IDMuNzctMi4wNSA0LjAzIDAgNC43OCAyLjY1IDQuNzggNi4xVjIxaC00di01LjZjMC0xLjM0LS4wMy0zLjA2LTEuODYtMy4wNi0xLjg3IDAtMi4xNSAxLjQ2LTIuMTUgMi45NlYyMUg5eiIvPjwvc3ZnPg%3D%3D" /></a>
+  <a href="mailto:harishwaran@hexpertify.com"><img alt="Email" src="https://img.shields.io/badge/Email-0B1633?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjN0NGRkIyIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHJlY3QgeD0iMiIgeT0iNCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE2IiByeD0iMiIvPjxwYXRoIGQ9Im0yIDYgMTAgNyAxMC03Ii8%2BPC9zdmc%2B" /></a>
+  <a href="https://thenamsoftwaresolutions.com"><img alt="Thenam Software Solutions" src="https://img.shields.io/badge/Thenam%20Software%20Solutions-0B1633?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkZEMTY2IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHJlY3QgeD0iMiIgeT0iNyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE0IiByeD0iMiIvPjxwYXRoIGQ9Ik0xNiA3VjVhMiAyIDAgMCAwLTItMmgtNGEyIDIgMCAwIDAtMiAydjJNMiAxM2gyMCIvPjwvc3ZnPg%3D%3D" /></a>
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=Hari-Eshwaran&label=Profile%20views&color=1C7FA3&style=for-the-badge" />
+</p>
 
-<div align="center">
-  <img src="./assets/hero-ai-banner.svg" alt="AI themed glassmorphism hero banner" width="100%" />
-</div>
+## About
 
-## 👨‍💻 About Me
+I'm a technology entrepreneur and the CEO of **Thenam Software Solutions**, a Chennai-based company building software, AI, automation and IoT products. My work sits where engineering meets the business: shipping AI-powered platforms and enterprise software, running a growing startup, and leading the developers, interns and analysts who build it with me.
 
-I’m Harishwaran P, a B.Tech student in Artificial Intelligence and Data Science at DMI College of Engineering, Chennai, graduating in 2026. I enjoy building products that blend clean UI, practical engineering, and AI-driven ideas, and I’ve applied that mindset across internships in data analysis, full-stack development, and lean manufacturing.
+Trained in Artificial Intelligence and Data Science, I build across machine learning, computer vision, generative and agentic AI, IoT, blockchain and AR/VR. Engineer by training, entrepreneur by choice. I care about what ships, not just what demos.
 
-I work comfortably across React.js, Python, Node.js, Supabase, Firebase, Power BI, Docker, and Figma, and I like shipping projects that feel polished while solving real problems.
+- 🏢 **CEO, Thenam Software Solutions** (2025 – now): product, delivery and business development; built SMSLA Source360, an enterprise ERP
+- ⚙️ **CTO, Hexpertify** (since 2024): architected an AI-powered consulting platform on React, TypeScript, Node.js, Supabase and Gemini
+- 🎓 **B.Tech, AI & Data Science**, DMI College of Engineering, Chennai (2022 – 2026)
+- 🏆 **Latest win:** DevHub 1.0 at VIT Chennai (Apr 2026) with HypexAI
+- 🤝 Open to collaborations and opportunities
 
-## 🚀 Featured Projects
+## Selected work
 
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3>FinEcho</h3>
-      <p>AI-focused finance experience designed for clarity and modern interaction.</p>
-      <a href="https://fin-echo.vercel.app/">Live Demo</a>
+      <sub>PRODUCT</sub><br />
+      <b>ZAYMAZONE</b><br />
+      Marketplace connecting Indian artisans, handmade-product sellers and homepreneurs with customers.<br />
+      <sub>E-commerce · Marketplace</sub><br /><br />
+      <a href="https://zaymazone-taupe.vercel.app">Live demo ↗</a>
     </td>
     <td width="33%" valign="top">
-      <h3>TastyLens-AR</h3>
-      <p>Augmented reality food discovery concept built for a more engaging browsing flow.</p>
-      <a href="https://tastylensar.vercel.app/">Live Demo</a>
+      <sub>PRODUCT · ENTERPRISE ERP</sub><br />
+      <b>SMSLA Source360</b><br />
+      Purchase management, approval workflows, finance and vendor operations, with TallyPrime integration.<br />
+      <sub>PostgreSQL · Redis · Nginx · IIS</sub><br /><br />
+      <i>Client project</i>
     </td>
     <td width="33%" valign="top">
-      <h3>Heal-Fit</h3>
-      <p>Wellness-oriented web app focused on habit tracking and a simple user experience.</p>
-      <a href="https://heal-fit.vercel.app/">Live Demo</a>
+      <sub>🏆 WINNER · DRESTEIN'25</sub><br />
+      <b>ZARA — AI student assistant</b><br />
+      AI and IoT assistant that automates scheduling, reminders and personalised learning for 100+ students.<br />
+      <sub>AI assistant · IoT · Real-time AI</sub><br /><br />
+      <a href="https://zara-ai.vercel.app/">Live demo ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <sub>🥈 2ND PLACE · PROJECT EXPO</sub><br />
+      <b>ReportX — offline AI audits</b><br />
+      Audit-report generator on local LLMs that cuts documentation effort by 70% and keeps data on-premise.<br />
+      <sub>Ollama · Local LLMs · Python</sub><br /><br />
+      <a href="https://report-x-ai.vercel.app/">Live demo ↗</a>
+    </td>
+    <td width="33%" valign="top">
+      <sub>🏆 WINNER · DCE HACKATHON</sub><br />
+      <b>AgriSmart</b><br />
+      AI agriculture platform combining IoT sensors, blockchain traceability and predictive analytics.<br />
+      <sub>IoT · Blockchain · Predictive analytics</sub><br /><br />
+      <a href="https://agrismart-ai-web.vercel.app/">Live demo ↗</a>
+    </td>
+    <td width="33%" valign="top">
+      <sub>🎖️ SPECIAL WINNER · ECOVERSE'25</sub><br />
+      <b>SmartBin</b><br />
+      Multi-modal AI and IoT waste management that classifies waste and tracks recycling in real time.<br />
+      <sub>Multi-modal AI · IoT · Analytics</sub><br /><br />
+      <a href="https://smartbin-ppt.netlify.app/">Live demo ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <sub>🎖️ SPECIAL WINNER · NEUROTHON 2K26</sub><br />
+      <b>Plan Panni Pannuvom</b><br />
+      Generative and agentic AI that turns an idea into project workflows, roadmaps and execution guidance.<br />
+      <sub>Generative AI · Agentic AI · Automation</sub><br /><br />
+      <a href="https://plan-panni-pannuvom-p3.vercel.app/">Live demo ↗</a>
+    </td>
+    <td width="33%" valign="top">
+      <sub>🏆 WINNER · CODEATHON 3.0 · 📄 ICEET 2025</sub><br />
+      <b>TastyLens</b><br />
+      AR/VR food ordering with immersive food previews and blockchain-backed supply-chain transparency.<br />
+      <sub>React · Node.js · AR/VR · Blockchain</sub><br /><br />
+      <a href="https://tastylensar.vercel.app/">Live demo ↗</a>
+    </td>
+    <td width="33%" valign="top">
+      <sub>📄 PUBLISHED · ICIRES 2025</sub><br />
+      <b>Heal-Fit</b><br />
+      Health and fitness tracker with personalised workout and nutrition recommendations.<br />
+      <sub>React · TypeScript · Supabase</sub><br /><br />
+      <a href="https://heal-fit.vercel.app/">Live demo ↗</a>
     </td>
   </tr>
 </table>
 
-## 🛠 Tech Stack
+## Milestones
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=react,js,ts,nodejs,python,html,css,tailwind,figma,firebase,supabase,docker,git,vscode" alt="Skill icons" />
-</div>
+<img src="./assets/milestones.svg" width="100%" alt="8 hackathon and startup awards, ₹48K+ in prize money, 2 research papers and 20 certifications. Award timeline from Codeathon 3.0 (Mar 2025) to DevHub 1.0 (Apr 2026)." />
 
-## 📊 GitHub Stats
+<details>
+<summary><b>All awards, publications and certifications</b></summary>
+<br />
 
-<div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Hari-Eshwaran&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hari-Eshwaran&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
-</div>
+| When | Recognition | Event | Project |
+| --- | --- | --- | --- |
+| Apr 2026 | 🏆 Winner · ₹10,000 | DevHub 1.0, VIT Chennai | HypexAI |
+| Jan 2026 | 🥈 2nd place · ₹8,000 | Project Expo, DMI College of Engineering | ReportX |
+| Jan 2026 | 🎖️ Special winner · ₹5,000 | Ecoverse'25, VIT Chennai | SmartBin |
+| Aug 2025 | 🏆 Winner · ₹5,000 | DCE Hackathon, Dhanalakshmi College of Engineering | AgriSmart |
+| Jun 2025 | 🏆 Winner · ₹10,000 | Drestein'25, Saveetha Engineering College | ZARA |
+| Mar 2025 | 🏆 Winner · ₹10,000 | Codeathon 3.0, Prathyusha Engineering College | TastyLens |
+| — | 🎖️ Special winner | NEUROTHON 2K26 | Plan Panni Pannuvom |
+| — | 🥇 1st place (with Jaswanth Jegan) | Startup Forage, SRMIST | — |
+| — | Top 10 | Generative AI Hackathon | Palette AI |
+| — | Finalist | National AI Hackathon | — |
 
-## 🔥 GitHub Streak
+**Research:** TastyLens AR (ICEET 2025) · Heal-Fit (ICIRES 2025)
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Hari-Eshwaran&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-</div>
+**Certifications:** 20 credentials from Microsoft, LinkedIn Learning, Docker, ServiceNow, Moz, Atlassian and GitHub. [See them on my portfolio ↗](https://harishwaran.dpdns.org)
 
-## 📈 Activity Graph
+</details>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hari-Eshwaran&theme=tokyo-night&hide_border=true" alt="Contribution activity graph" />
-</div>
+## Experience
 
-## 🏆 GitHub Trophies
+| When | Role | Highlights |
+| --- | --- | --- |
+| 2025 – now | **CEO**, Thenam Software Solutions | Runs operations, product and delivery; hires and leads developers, interns and analysts; built the SMSLA Source360 ERP |
+| 2024 – now | **CTO**, Hexpertify | Led the AI consulting platform; microservices for mental-health, fitness, legal and finance consultations; 60% faster releases with agile |
+| Feb – Mar 2025 | **AI & ML Intern**, OneYes InfoTech Solutions | ML, deep learning and NLP on 10,000+ mental-health records; Power BI dashboards; Certificate of Excellence |
+| Feb – Mar 2025 | **Data Analyst Intern**, Vulture Lines | Analysis of 50,000+ business records; automated reporting that cut manual effort by 40% |
+| Jun – Jul 2024 | **Full Stack Developer Intern**, Novitech | React, Node.js and MongoDB apps with REST APIs; 30% performance gains |
+| Nov 2022 – Apr 2023 | **Production & UI/UX Design Intern**, Hyundai Transys Lear | Process monitoring in production; UI/UX prototypes for internal systems |
 
-<div align="center">
-  <img src="./assets/github-trophies.svg" alt="GitHub trophies" width="100%" />
-</div>
-
-## 🐍 GitHub Contribution Snake
-
-<div align="center">
-  <img src="./assets/contribution-snake.svg" alt="Contribution snake animation" width="100%" />
-</div>
-
-## 📊 Dynamic GitHub Metrics Dashboard
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Hari-Eshwaran&theme=tokyonight" alt="Profile details card" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Hari-Eshwaran&theme=tokyonight" alt="Repos per language card" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Hari-Eshwaran&theme=tokyonight" alt="Most commit language card" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Hari-Eshwaran&theme=tokyonight" alt="Stats card" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Hari-Eshwaran&theme=tokyonight&utcOffset=5.5" alt="Productive time card" />
-</div>
-
-## 💼 Experience Timeline
+## Tech stack
 
 <table>
   <tr>
-    <td><strong>2022 - 2026</strong></td>
-    <td>B.Tech in Artificial Intelligence and Data Science at DMI College of Engineering, Chennai.</td>
+    <td><b>AI & ML</b></td>
+    <td>
+      <img height="40" src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,opencv" alt="Python, PyTorch, TensorFlow, OpenCV" /><br />
+      <sub>Deep learning · NLP · Computer vision · YOLOv5 · Generative & agentic AI · Ollama · Gemini API</sub>
+    </td>
   </tr>
   <tr>
-    <td><strong>Internship</strong></td>
-    <td>Data analysis experience at Vulture Lines Pvt Ltd, with a focus on reporting and insight generation.</td>
+    <td><b>Frontend</b></td>
+    <td><img height="40" src="https://skillicons.dev/icons?i=ts,js,cpp,react,nextjs,html,css,tailwind,figma" alt="TypeScript, JavaScript, C++, React, Next.js, HTML, CSS, Tailwind CSS, Figma" /></td>
   </tr>
   <tr>
-    <td><strong>Internship</strong></td>
-    <td>Full stack development at Novitech Pvt Ltd, building responsive applications and RESTful APIs.</td>
+    <td><b>Backend & data</b></td>
+    <td>
+      <img height="40" src="https://skillicons.dev/icons?i=nodejs,express,nestjs,flask,postgres,mysql,mongodb,redis,supabase,firebase" alt="Node.js, Express, NestJS, Flask, PostgreSQL, MySQL, MongoDB, Redis, Supabase, Firebase" /><br />
+      <sub>Power BI · Tableau · Pandas · Streamlit · Plotly</sub>
+    </td>
   </tr>
   <tr>
-    <td><strong>Early Experience</strong></td>
-    <td>Lean manufacturing exposure at Hyundai Transys Lear, improving production efficiency and process thinking.</td>
+    <td><b>Cloud & DevOps</b></td>
+    <td>
+      <img height="40" src="https://skillicons.dev/icons?i=aws,docker,nginx,githubactions,git,vercel,linux,windows" alt="AWS, Docker, Nginx, GitHub Actions, Git, Vercel, Linux, Windows Server" /><br />
+      <sub>IIS & Windows Server · CI/CD</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><b>IoT & Web3</b></td>
+    <td>
+      <img height="40" src="https://skillicons.dev/icons?i=arduino,solidity" alt="Arduino, Solidity" /><br />
+      <sub>ESP32 · ESP8266 · Edge AI · Hardhat · Ethers.js · AR/VR</sub>
+    </td>
   </tr>
 </table>
 
-## 📜 Certifications
+## On GitHub
 
-<table>
-  <tr>
-    <td>Embedded Systems</td>
-    <td>IoT</td>
-    <td>Full Stack Development</td>
-    <td>SQL</td>
-    <td>AI</td>
-  </tr>
-</table>
+<!-- Both images are rebuilt daily by .github/workflows/profile-assets.yml and published to the `output` branch. -->
+<img src="https://raw.githubusercontent.com/Hari-Eshwaran/Hari-Eshwaran/output/github-card.svg" width="100%" alt="Live GitHub card: language mix by code size, public repos, original projects, languages and latest push. Updated daily." />
 
-## 🌐 Social Links
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hari-Eshwaran/Hari-Eshwaran/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hari-Eshwaran/Hari-Eshwaran/output/snake-light.svg" />
+  <img src="https://raw.githubusercontent.com/Hari-Eshwaran/Hari-Eshwaran/output/snake-dark.svg" width="100%" alt="A snake eating my contribution graph" />
+</picture>
 
-<div align="center">
-  <a href="https://harishwaran.tech">Portfolio</a> •
-  <a href="https://www.linkedin.com/in/harishwaran1">LinkedIn</a> •
-  <a href="mailto:harishwaran@hexpertify.com">Email</a> •
-  <a href="mailto:mail@harishwaran.tech">Alternate Email</a>
-</div>
-
-## 🎯 Visitor Counter
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Hari-Eshwaran&label=Profile%20Views&color=33D6FF&style=for-the-badge" alt="Visitor counter" />
-</div>
-
-<div align="center">
-  <img src="./assets/footer-wave.svg" alt="Animated footer wave" width="100%" />
-</div>
-
-<div align="center">
-  <strong>✨ Building polished experiences with curiosity, consistency, and AI-powered creativity ✨</strong>
-</div>
+<img src="./assets/footer.svg" width="100%" alt="Engineer by training, entrepreneur by choice." />

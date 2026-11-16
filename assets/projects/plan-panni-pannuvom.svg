@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340" role="img" aria-labelledby="title desc">
+  <title id="title">Plan Panni Pannuvom</title>
+  <desc id="desc">Plan Panni Pannuvom: AI project generator. Special winner · Neurothon 2K26. Generative and agentic AI that produces project workflows, intelligent roadmaps and execution guidance for dev teams.</desc>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .badge { font-family: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, Menlo, monospace; font-size: 13px; font-weight: 600; letter-spacing: 0.3px; }
+    .index { font-family: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, Menlo, monospace; font-size: 16px; fill: #8E7B6C; }
+    .name { font-weight: 700; fill: #F7F1EA; }
+    .kicker { font-weight: 600; fill: #FF7A1A; }
+    .body { fill: #DCCDBF; }
+    .tag { font-family: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, Menlo, monospace; font-size: 14px; fill: #B09A87; }
+    .cta { font-size: 17px; font-weight: 600; fill: #FF7A1A; }
+    .button { font-size: 17px; font-weight: 700; fill: #140C06; }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0908"/>
+      <stop offset="1" stop-color="#14100D"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF7A1A"/>
+      <stop offset="0.6" stop-color="#FF7A1A" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#FF7A1A" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#FF7A1A" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FF7A1A" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="shape"><rect x="12" width="588" height="340" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#shape)">
+    <rect x="12" width="588" height="340" fill="url(#bg)"/>
+    <circle cx="600" cy="0" r="255" fill="url(#glow)"/>
+    <rect x="12" width="588" height="3" fill="url(#bar)"/>
+  </g>
+  <rect x="12.5" y="0.5" width="587" height="339" rx="20" fill="none" stroke="#2B211A"/>
+  <rect x="44" y="30" width="296" height="30" rx="15" fill="#FF7A1A" fill-opacity="0.1" stroke="#FF7A1A" stroke-opacity="0.45"/>
+    <g transform="translate(57 36) scale(0.75)" fill="none" stroke="#FF7A1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></g>
+    <text class="badge" x="84" y="50" fill="#FF7A1A">SPECIAL WINNER · NEUROTHON 2K26</text>
+  <text class="index" x="568" y="50" text-anchor="end">07</text>
+  <text class="name" x="44" y="112" font-size="32">Plan Panni Pannuvom</text>
+  <text class="kicker" x="44" y="142" font-size="18">AI project generator</text>
+  <text class="body" font-size="19"><tspan x="44" y="184">Generative and agentic AI that produces project workflows,</tspan><tspan x="44" y="211">intelligent roadmaps and execution guidance for dev teams.</tspan></text>
+  <line x1="44" y1="270" x2="568" y2="270" stroke="#241B15"/>
+  <rect x="44" y="286" width="133" height="30" rx="8" fill="#16110D" stroke="#2B211A"/><text class="tag" x="110.5" y="306" text-anchor="middle">Generative AI</text>
+    <rect x="185" y="286" width="108" height="30" rx="8" fill="#16110D" stroke="#2B211A"/><text class="tag" x="239" y="306" text-anchor="middle">Agentic AI</text>
+  <text class="cta" x="568" y="307" text-anchor="end">Live demo ↗</text>
+</svg>

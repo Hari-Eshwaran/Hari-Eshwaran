@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340" role="img" aria-labelledby="title desc">
+  <title id="title">SMSLA Source360</title>
+  <desc id="desc">SMSLA Source360: Enterprise ERP. Client product. Purchase management, approval workflows, finance operations and vendor management, with TallyPrime integration.</desc>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .badge { font-family: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, Menlo, monospace; font-size: 13px; font-weight: 600; letter-spacing: 0.3px; }
+    .index { font-family: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, Menlo, monospace; font-size: 16px; fill: #8E7B6C; }
+    .name { font-weight: 700; fill: #F7F1EA; }
+    .kicker { font-weight: 600; fill: #FF7A1A; }
+    .body { fill: #DCCDBF; }
+    .tag { font-family: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, Menlo, monospace; font-size: 14px; fill: #B09A87; }
+    .cta { font-size: 17px; font-weight: 600; fill: #FF7A1A; }
+    .button { font-size: 17px; font-weight: 700; fill: #140C06; }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0908"/>
+      <stop offset="1" stop-color="#14100D"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF4D00"/>
+      <stop offset="0.6" stop-color="#FF4D00" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#FF4D00" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#FF4D00" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FF4D00" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="shape"><rect x="0" width="588" height="340" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#shape)">
+    <rect x="0" width="588" height="340" fill="url(#bg)"/>
+    <circle cx="588" cy="0" r="255" fill="url(#glow)"/>
+    <rect x="0" width="588" height="3" fill="url(#bar)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="587" height="339" rx="20" fill="none" stroke="#2B211A"/>
+  <rect x="32" y="30" width="163" height="30" rx="15" fill="#FF4D00" fill-opacity="0.1" stroke="#FF4D00" stroke-opacity="0.45"/>
+    <g transform="translate(45 36) scale(0.75)" fill="none" stroke="#FF4D00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M4 7.5l8 4.5 8-4.5M12 12v9"/></g>
+    <text class="badge" x="72" y="50" fill="#FF4D00">CLIENT PRODUCT</text>
+  <text class="index" x="556" y="50" text-anchor="end">02</text>
+  <text class="name" x="32" y="112" font-size="32">SMSLA Source360</text>
+  <text class="kicker" x="32" y="142" font-size="18">Enterprise ERP</text>
+  <text class="body" font-size="19"><tspan x="32" y="184">Purchase management, approval workflows, finance</tspan><tspan x="32" y="211">operations and vendor management, with TallyPrime</tspan><tspan x="32" y="238">integration.</tspan></text>
+  <line x1="32" y1="270" x2="556" y2="270" stroke="#241B15"/>
+  <rect x="32" y="286" width="108" height="30" rx="8" fill="#16110D" stroke="#2B211A"/><text class="tag" x="86" y="306" text-anchor="middle">PostgreSQL</text>
+    <rect x="148" y="286" width="66" height="30" rx="8" fill="#16110D" stroke="#2B211A"/><text class="tag" x="181" y="306" text-anchor="middle">Redis</text>
+    <rect x="222" y="286" width="66" height="30" rx="8" fill="#16110D" stroke="#2B211A"/><text class="tag" x="255" y="306" text-anchor="middle">Nginx</text>
+    <rect x="296" y="286" width="49" height="30" rx="8" fill="#16110D" stroke="#2B211A"/><text class="tag" x="320.5" y="306" text-anchor="middle">IIS</text>
+  <text class="cta" x="556" y="307" text-anchor="end">Built at Thenam ↗</text>
+</svg>

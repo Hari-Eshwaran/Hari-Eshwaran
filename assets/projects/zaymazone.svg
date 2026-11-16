@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">ZAYMAZONE</title>
+  <desc id="desc">ZAYMAZONE: Crafting culture. Empowering artisans. Flagship product. An e-commerce marketplace connecting Indian artisans, handmade-product sellers and homepreneurs directly with their customers.</desc>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .badge { font-family: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, Menlo, monospace; font-size: 13px; font-weight: 600; letter-spacing: 0.3px; }
+    .index { font-family: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, Menlo, monospace; font-size: 16px; fill: #8E7B6C; }
+    .name { font-weight: 700; fill: #F7F1EA; }
+    .kicker { font-weight: 600; fill: #FF7A1A; }
+    .body { fill: #DCCDBF; }
+    .tag { font-family: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, Menlo, monospace; font-size: 14px; fill: #B09A87; }
+    .cta { font-size: 17px; font-weight: 600; fill: #FF7A1A; }
+    .button { font-size: 17px; font-weight: 700; fill: #140C06; }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0908"/>
+      <stop offset="1" stop-color="#14100D"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF4D00"/>
+      <stop offset="0.6" stop-color="#FF4D00" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#FF4D00" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#FF4D00" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FF4D00" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="shape"><rect x="0" width="1200" height="380" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#shape)">
+    <rect x="0" width="1200" height="380" fill="url(#bg)"/>
+    <circle cx="1200" cy="0" r="285" fill="url(#glow)"/>
+    <rect x="0" width="1200" height="3" fill="url(#bar)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="379" rx="20" fill="none" stroke="#2B211A"/>
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF4D00" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#FFB347" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+  <rect x="44" y="40" width="179" height="30" rx="15" fill="#FF4D00" fill-opacity="0.1" stroke="#FF4D00" stroke-opacity="0.45"/>
+    <g transform="translate(57 46) scale(0.75)" fill="none" stroke="#FF4D00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M4 7.5l8 4.5 8-4.5M12 12v9"/></g>
+    <text class="badge" x="84" y="60" fill="#FF4D00">FLAGSHIP PRODUCT</text>
+  <text class="index" x="660" y="60" text-anchor="end">01</text>
+  <text class="name" x="44" y="138" font-size="48">ZAYMAZONE</text>
+  <text class="kicker" x="44" y="176" font-size="21">Crafting culture. Empowering artisans.</text>
+  <text class="body" font-size="20"><tspan x="44" y="222">An e-commerce marketplace connecting Indian artisans,</tspan><tspan x="44" y="252">handmade-product sellers and homepreneurs directly with their</tspan><tspan x="44" y="282">customers.</tspan></text>
+  <rect x="44" y="312" width="108" height="30" rx="8" fill="#16110D" stroke="#2B211A"/><text class="tag" x="98" y="332" text-anchor="middle">E-commerce</text>
+    <rect x="160" y="312" width="116" height="30" rx="8" fill="#16110D" stroke="#2B211A"/><text class="tag" x="218" y="332" text-anchor="middle">Marketplace</text>
+    <rect x="284" y="312" width="91" height="30" rx="8" fill="#16110D" stroke="#2B211A"/><text class="tag" x="329.5" y="332" text-anchor="middle">Artisans</text>
+  <rect x="489" y="307" width="171" height="40" rx="20" fill="#FF7A1A"/>
+  <text class="button" x="574.5" y="333" text-anchor="middle">Visit live site ↗</text>
+  <g>
+    <rect x="716" y="64" width="440" height="270" rx="14" fill="#100C09" stroke="#2B211A"/>
+    <line x1="716" y1="96" x2="1156" y2="96" stroke="#2B211A"/>
+    <circle cx="734" cy="80" r="4.5" fill="#FF4D00"/>
+    <circle cx="750" cy="80" r="4.5" fill="#FFB347"/>
+    <circle cx="766" cy="80" r="4.5" fill="#FFC857"/>
+    <rect x="836" y="72" width="200" height="16" rx="8" fill="#16110D" stroke="#2B211A"/>
+    <text x="936" y="84" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, Menlo, monospace" font-size="11" fill="#8E7B6C">zaymazone</text>
+    <rect x="732" y="110" width="74" height="14" rx="4" fill="#FF7A1A"/>
+    <rect x="1006" y="113" width="34" height="8" rx="4" fill="#3A2E25"/>
+    <rect x="1048" y="113" width="34" height="8" rx="4" fill="#3A2E25"/>
+    <rect x="1090" y="109" width="50" height="16" rx="8" fill="none" stroke="#FF7A1A"/>
+    <g>
+      <rect x="732" y="140" width="128" height="88" rx="10" fill="#1A140F" stroke="#2B211A"></rect>
+      <rect x="740" y="148" width="112" height="44" rx="6" fill="url(#tile)" opacity="0.55"/>
+      <g fill="#FF7A1A" opacity="0.75"><circle cx="796" cy="170" r="11"/></g>
+      <rect x="740" y="200" width="70.4" height="7" rx="3.5" fill="#3A2E25"/>
+      <rect x="740" y="213" width="34" height="7" rx="3.5" fill="#FFB347" opacity="0.75"/>
+    </g>
+    <g>
+      <rect x="872" y="140" width="128" height="88" rx="10" fill="#1A140F" stroke="#FF7A1A" stroke-width="1.5"><animate attributeName="stroke-opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/></rect>
+      <rect x="880" y="148" width="112" height="44" rx="6" fill="url(#tile)" opacity="0.9"/>
+      <g fill="#FF7A1A" opacity="0.75"><rect x="925" y="161" width="22" height="18" rx="4"/></g>
+      <rect x="880" y="200" width="70.4" height="7" rx="3.5" fill="#3A2E25"/>
+      <rect x="880" y="213" width="34" height="7" rx="3.5" fill="#FFB347" opacity="0.75"/>
+    </g>
+    <g>
+      <rect x="1012" y="140" width="128" height="88" rx="10" fill="#1A140F" stroke="#2B211A"></rect>
+      <rect x="1020" y="148" width="112" height="44" rx="6" fill="url(#tile)" opacity="0.4"/>
+      <g fill="#FF7A1A" opacity="0.75"><path d="M1076 158 L1087 170 L1076 182 L1065 170 Z"/></g>
+      <rect x="1020" y="200" width="70.4" height="7" rx="3.5" fill="#3A2E25"/>
+      <rect x="1020" y="213" width="34" height="7" rx="3.5" fill="#FFB347" opacity="0.75"/>
+    </g>
+    <g>
+      <rect x="732" y="240" width="128" height="88" rx="10" fill="#1A140F" stroke="#2B211A"></rect>
+      <rect x="740" y="248" width="112" height="44" rx="6" fill="url(#tile)" opacity="0.7"/>
+      <g fill="#FF7A1A" opacity="0.75"><circle cx="796" cy="270" r="11"/></g>
+      <rect x="740" y="300" width="70.4" height="7" rx="3.5" fill="#3A2E25"/>
+      <rect x="740" y="313" width="34" height="7" rx="3.5" fill="#FFB347" opacity="0.75"/>
+    </g>
+    <g>
+      <rect x="872" y="240" width="128" height="88" rx="10" fill="#1A140F" stroke="#2B211A"></rect>
+      <rect x="880" y="248" width="112" height="44" rx="6" fill="url(#tile)" opacity="0.5"/>
+      <g fill="#FF7A1A" opacity="0.75"><rect x="925" y="261" width="22" height="18" rx="4"/></g>
+      <rect x="880" y="300" width="70.4" height="7" rx="3.5" fill="#3A2E25"/>
+      <rect x="880" y="313" width="34" height="7" rx="3.5" fill="#FFB347" opacity="0.75"/>
+    </g>
+    <g>
+      <rect x="1012" y="240" width="128" height="88" rx="10" fill="#1A140F" stroke="#2B211A"></rect>
+      <rect x="1020" y="248" width="112" height="44" rx="6" fill="url(#tile)" opacity="0.8"/>
+      <g fill="#FF7A1A" opacity="0.75"><path d="M1076 258 L1087 270 L1076 282 L1065 270 Z"/></g>
+      <rect x="1020" y="300" width="70.4" height="7" rx="3.5" fill="#3A2E25"/>
+      <rect x="1020" y="313" width="34" height="7" rx="3.5" fill="#FFB347" opacity="0.75"/>
+    </g>
+  </g>
+</svg>

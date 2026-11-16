@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340" role="img" aria-labelledby="title desc">
+  <title id="title">TastyLens</title>
+  <desc id="desc">TastyLens: AR/VR food ordering. Winner · Codeathon 3.0, ICEET 2025. Immersive AR/VR food previews with blockchain-backed supply-chain transparency, built with React and AI.</desc>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .badge { font-family: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, Menlo, monospace; font-size: 13px; font-weight: 600; letter-spacing: 0.3px; }
+    .index { font-family: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, Menlo, monospace; font-size: 16px; fill: #8E7B6C; }
+    .name { font-weight: 700; fill: #F7F1EA; }
+    .kicker { font-weight: 600; fill: #FF7A1A; }
+    .body { fill: #DCCDBF; }
+    .tag { font-family: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, Menlo, monospace; font-size: 14px; fill: #B09A87; }
+    .cta { font-size: 17px; font-weight: 600; fill: #FF7A1A; }
+    .button { font-size: 17px; font-weight: 700; fill: #140C06; }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0908"/>
+      <stop offset="1" stop-color="#14100D"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFC857"/>
+      <stop offset="0.6" stop-color="#FFC857" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#FFC857" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#FFC857" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FFC857" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="shape"><rect x="0" width="588" height="340" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#shape)">
+    <rect x="0" width="588" height="340" fill="url(#bg)"/>
+    <circle cx="588" cy="0" r="255" fill="url(#glow)"/>
+    <rect x="0" width="588" height="3" fill="url(#bar)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="587" height="339" rx="20" fill="none" stroke="#2B211A"/>
+  <rect x="32" y="30" width="226" height="30" rx="15" fill="#FFC857" fill-opacity="0.1" stroke="#FFC857" stroke-opacity="0.45"/>
+    <g transform="translate(45 36) scale(0.75)" fill="none" stroke="#FFC857" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4h10v4a5 5 0 0 1-10 0z"/><path d="M7 6H4v1a3 3 0 0 0 3 3M17 6h3v1a3 3 0 0 1-3 3M12 13v4M8 21h8M10 17h4v4h-4z"/></g>
+    <text class="badge" x="72" y="50" fill="#FFC857">WINNER · CODEATHON 3.0</text>
+    <rect x="266" y="30" width="132" height="30" rx="15" fill="#FFB347" fill-opacity="0.1" stroke="#FFB347" stroke-opacity="0.45"/>
+    <g transform="translate(279 36) scale(0.75)" fill="none" stroke="#FFB347" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></g>
+    <text class="badge" x="306" y="50" fill="#FFB347">ICEET 2025</text>
+  <text class="index" x="556" y="50" text-anchor="end">08</text>
+  <text class="name" x="32" y="112" font-size="32">TastyLens</text>
+  <text class="kicker" x="32" y="142" font-size="18">AR/VR food ordering</text>
+  <text class="body" font-size="19"><tspan x="32" y="184">Immersive AR/VR food previews with blockchain-backed</tspan><tspan x="32" y="211">supply-chain transparency, built with React and AI.</tspan></text>
+  <line x1="32" y1="270" x2="556" y2="270" stroke="#241B15"/>
+  <rect x="32" y="286" width="66" height="30" rx="8" fill="#16110D" stroke="#2B211A"/><text class="tag" x="65" y="306" text-anchor="middle">React</text>
+    <rect x="106" y="286" width="83" height="30" rx="8" fill="#16110D" stroke="#2B211A"/><text class="tag" x="147.5" y="306" text-anchor="middle">Node.js</text>
+    <rect x="197" y="286" width="66" height="30" rx="8" fill="#16110D" stroke="#2B211A"/><text class="tag" x="230" y="306" text-anchor="middle">AR/VR</text>
+    <rect x="271" y="286" width="108" height="30" rx="8" fill="#16110D" stroke="#2B211A"/><text class="tag" x="325" y="306" text-anchor="middle">Blockchain</text>
+  <text class="cta" x="556" y="307" text-anchor="end">Live demo ↗</text>
+</svg>

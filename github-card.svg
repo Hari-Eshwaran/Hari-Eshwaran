@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="336" viewBox="0 0 1200 336" role="img" aria-labelledby="title desc">
+  <title id="title">Live from GitHub</title>
+  <desc id="desc">Language mix by code size: TypeScript 65%, JavaScript 23%, Python 6.2%, CSS 1.7%, Jupyter Notebook 1.6%, Other 2.3%. 43 public repos, 30 original projects, 12 languages, on GitHub since 2024. Latest push: portfolio on 13 Nov 2026.</desc>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #F7F1EA; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, Menlo, monospace; font-size: 15px; letter-spacing: 0.4px; }
+    .eyebrow { font-family: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, Menlo, monospace; font-size: 15px; letter-spacing: 2.5px; fill: #D9C4B0; }
+    .muted { fill: #8E7B6C; }
+    .accent { fill: #FF9A4D; }
+    .title { font-size: 22px; font-weight: 700; }
+    .sub { font-size: 16px; fill: #B09A87; }
+    .seg { font-size: 14px; font-weight: 600; fill: #FFFFFF; }
+    .lg-name { font-size: 16px; fill: #EADDD0; }
+    .lg-pct { font-family: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, Menlo, monospace; font-size: 15px; fill: #B09A87; }
+    .value { font-size: 34px; font-weight: 700; fill: #FFF6EE; }
+    .label { font-size: 15px; fill: #B09A87; }
+    .tile { animation: rise 0.7s cubic-bezier(0.22, 1, 0.36, 1) backwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } }
+    @media (prefers-reduced-motion: reduce) { .tile { animation: none; } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0908"/>
+      <stop offset="1" stop-color="#14100D"/>
+    </linearGradient>
+    <clipPath id="reveal">
+      <rect x="56" y="172" width="640" height="32">
+        <animate attributeName="width" from="0" to="640" dur="1.4s" calcMode="spline" keyTimes="0;1" keySplines="0.22 1 0.36 1" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="1199" height="335" rx="20" fill="url(#bg)" stroke="#2B211A"/>
+
+  <circle cx="62" cy="50" r="5" fill="#FF7A1A"/>
+  <circle cx="62" cy="50" r="5" fill="none" stroke="#FF7A1A" stroke-width="2">
+    <animate attributeName="r" values="5;14" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text class="eyebrow" x="78" y="55">LIVE FROM GITHUB</text>
+  <text class="mono muted" x="1144" y="55" text-anchor="end">auto-updated daily · 21 Nov 2026</text>
+  <line x1="56" y1="78" x2="1144" y2="78" stroke="#241B15"/>
+
+  <text class="title" x="56" y="128">Language mix</text>
+  <text class="sub" x="56" y="154">by code size across 30 original public repos</text>
+  <g clip-path="url(#reveal)">
+      <rect x="56.0" y="174" width="412.1" height="28" rx="4" fill="#D95926"/><text class="seg" x="66.0" y="193">65%</text>
+      <rect x="470.1" y="174" width="143.4" height="28" rx="4" fill="#3987E5"/><text class="seg" x="480.1" y="193">23%</text>
+      <rect x="615.6" y="174" width="39.0" height="28" rx="4" fill="#199E70"/>
+      <rect x="656.6" y="174" width="11.0" height="28" rx="4" fill="#C98500"/>
+      <rect x="669.5" y="174" width="10.3" height="28" rx="4" fill="#D55181"/>
+      <rect x="681.8" y="174" width="14.2" height="28" rx="4" fill="#5A4F47"/>
+  </g>
+  <g>
+      <rect x="56" y="229" width="12" height="12" rx="3" fill="#D95926"/><text x="76" y="240"><tspan class="lg-name">TypeScript</tspan><tspan class="lg-pct" dx="8">65%</tspan></text>
+      <rect x="272" y="229" width="12" height="12" rx="3" fill="#3987E5"/><text x="292" y="240"><tspan class="lg-name">JavaScript</tspan><tspan class="lg-pct" dx="8">23%</tspan></text>
+      <rect x="488" y="229" width="12" height="12" rx="3" fill="#199E70"/><text x="508" y="240"><tspan class="lg-name">Python</tspan><tspan class="lg-pct" dx="8">6.2%</tspan></text>
+      <rect x="56" y="259" width="12" height="12" rx="3" fill="#C98500"/><text x="76" y="270"><tspan class="lg-name">CSS</tspan><tspan class="lg-pct" dx="8">1.7%</tspan></text>
+      <rect x="272" y="259" width="12" height="12" rx="3" fill="#D55181"/><text x="292" y="270"><tspan class="lg-name">Jupyter Notebook</tspan><tspan class="lg-pct" dx="8">1.6%</tspan></text>
+      <rect x="488" y="259" width="12" height="12" rx="3" fill="#5A4F47"/><text x="508" y="270"><tspan class="lg-name">Other</tspan><tspan class="lg-pct" dx="8">2.3%</tspan></text>
+  </g>
+  <text class="mono muted" x="56" y="306">latest push <tspan class="accent">→ portfolio</tspan> · 13 Nov 2026</text>
+
+  <g>
+      <g class="tile" style="animation-delay:0.15s">
+        <rect x="744" y="100" width="192" height="92" rx="14" fill="#16110D" stroke="#2B211A"/>
+        <text class="value" x="764" y="150">43</text>
+        <text class="label" x="764" y="176">Public repos</text>
+      </g>
+      <g class="tile" style="animation-delay:0.27s">
+        <rect x="952" y="100" width="192" height="92" rx="14" fill="#16110D" stroke="#2B211A"/>
+        <text class="value" x="972" y="150">30</text>
+        <text class="label" x="972" y="176">Original projects</text>
+      </g>
+      <g class="tile" style="animation-delay:0.39s">
+        <rect x="744" y="208" width="192" height="92" rx="14" fill="#16110D" stroke="#2B211A"/>
+        <text class="value" x="764" y="258">12</text>
+        <text class="label" x="764" y="284">Languages</text>
+      </g>
+      <g class="tile" style="animation-delay:0.51s">
+        <rect x="952" y="208" width="192" height="92" rx="14" fill="#16110D" stroke="#2B211A"/>
+        <text class="value" x="972" y="258">2024</text>
+        <text class="label" x="972" y="284">On GitHub since</text>
+      </g>
+  </g>
+</svg>
